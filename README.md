@@ -9,7 +9,7 @@
   <li>🌱 I’m currently learning cloud</li>
   <li>💡 Fun fact: I'm currently studying at AltSchool Africa <a href="https://altschoolafrica.com/schools/engineering">School of Software Engineering</a> Class of 2022</li>
   <li>💞️ I’m looking to collaborate on frontend and cloud tracks</li>
-  <li></li>
+  <li>🥳 Fun fact: I play and write game scripts too</li>
 </ul>
 
 <!---

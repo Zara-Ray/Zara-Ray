@@ -2,6 +2,7 @@
 <h1> 👋 Hi, I’m Zara-Ray</h1>
 
 <p>I'm a content creator, a budding Cloud Engineer and Frontend Engineer who currently works as an agent Machine Learning annotator at Hugo Technologies. I am a tech enthusiast, a graduate of Physics/Astronomy (Geophysics major), University of Nigeria, Nsukka. This is my short bio and I look forward to building useful projects... </p>
+<p>[Something about me](https://zara-ray.github.io/ZaraRay/)</p>
 
 <h3>A quick summary about me:</h3>
 <ul>

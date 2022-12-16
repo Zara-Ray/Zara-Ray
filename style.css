@@ -1,0 +1,388 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(bgd.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: round;
+}
+
+nav{
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    padding: 15px 8% 8%;
+}
+
+.self{
+    color: whitesmoke;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+span{
+    color: red;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 50px;
+}
+
+nav ul li a{
+    color:cyan;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: .5s;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: whitesmoke;
+    margin: 20px 0px 20px;
+}
+
+h3{
+    color: whitesmoke;
+    margin: 20px 0px 20px;
+    font-size: medium;
+}
+
+h4{
+    color: whitesmoke;
+letter-spacing: 5px;
+    font-size: large;
+}
+
+.home{
+    text-align: center;
+}
+
+.home button{
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+}
+
+.home button:hover{
+    transform: scale(0.9);
+}
+
+.home button img{
+    width: 100px;    
+    border-radius: 80%;
+}
+
+.about{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.about img{
+    height: auto;
+    width: 400px;
+    border-radius: 100%;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1000px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.about-text h5{
+     color: white;
+     letter-spacing: 3px;
+     font-size: 30px;
+     margin-bottom: 30px;
+     text-transform: capitalize;
+}
+
+.about-text p{
+    color: rgb(201, 221, 221);
+    letter-spacing: 1.5px;
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.title h2{
+    color: whitesmoke;
+    font-size: 20px;
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.card{
+    height: 400px;
+    width: 350px;
+    padding: 20px 50px;
+    border-radius: 100px;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    background:transparent;
+}
+
+.card img{
+    display: block;
+    width: 250px;
+    border-radius: 30px;
+}
+
+.card ul, ol{
+    color: antiquewhite;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    margin: auto 50px;
+}
+
+h5{
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact-me{
+    width: 100%;
+    height: 200px;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.contact-me .div1 textarea{
+    background-color: black;
+    width: 300px;
+    height: 200px;
+}
+
+.contact-me .div1 label{
+    letter-spacing: 5px;
+    line-height: 50px;
+    color: aqua;
+}
+
+.contact-me .div1 input{
+    background-color: black;
+    width: 300px;
+    height: 30px;
+}
+
+.div1 button{
+    border-radius: 30%;
+}
+
+.div1 button img{
+    width: 80px;
+    border-radius: 80%;
+}
+
+.div1 button:hover{
+    color: aqua;
+    box-shadow: 1px 2px;
+    transform: scale(0.9);
+}
+
+.items{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.items img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.items img:hover{
+    transform: scale(0.9);
+    transition: 0.3s;
+    border: 1.5px solid rgb(208, 106, 23);
+}
+
+.content h4{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.content p{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.register{
+    margin: -120px auto;
+}
+
+.register p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.register .div2 label{
+    letter-spacing: 5px;
+    line-height: 50px;
+    color: aqua;
+}
+
+.register .div2 input{
+    background-color: black;
+    width: 300px;
+    height: 30px;
+}
+
+.register .div2 select{
+    background-color: black;
+    width: 300px;
+    height: 30px;
+}
+
+.div2 button{
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+}
+
+.div2 button img{
+    width: 70px;
+    border-radius: 70%;
+}
+
+.div2 button:hover{
+    transform: scale(0.9);
+}
+
+.input{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.login{
+    margin: 0px auto;
+    padding-top: 0px;
+}
+
+.login p{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.login .div3 label{
+    letter-spacing: 5px;
+    line-height: 50px;
+    color: aqua;
+}
+
+.login .div3 input{
+    background-color: black;
+    width: 300px;
+    height: 30px;
+}
+
+.login .div3 select{
+    background-color: black;
+    width: 300px;
+    height: 30px;
+}
+
+.div3 button{
+    width: 120px;
+    height: 120px;
+    background-color: transparent;
+}
+
+.div3 button img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.div3 button:hover{
+    transform: scale(0.9);
+}
+
+.div3{
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+
+#star{
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  div.example {
+    display: none;
+  }
+}

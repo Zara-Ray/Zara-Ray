@@ -6,11 +6,12 @@
 
 <h3>A quick summary about me:</h3>
 <ul>
-  <li>👀 I’m a tech enthusiast <a href="https://zara-ray.github.io/ZaraRay">frontend</a></li>
+  <li>👀 I’m a tech enthusiast </li>
   <li>🌱 I’m currently learning cloud</li>
   <li>💡 Fun fact: I'm currently studying at AltSchool Africa <a href="https://altschoolafrica.com/schools/engineering">School of Software Engineering</a> Class of 2022</li>
   <li>💞️ I’m looking to collaborate on frontend and cloud tracks</li>
   <li>🥳 Fun fact: I play and write game scripts too</li>
+  <li>A sample <a href="https://zara-ray.github.io/ZaraRay">site</a></li>
 </ul>
 
 <!---

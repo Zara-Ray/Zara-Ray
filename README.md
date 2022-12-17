@@ -11,7 +11,7 @@
   <li>💡 Fun fact: I'm currently studying at AltSchool Africa <a href="https://altschoolafrica.com/schools/engineering">School of Software Engineering</a> Class of 2022</li>
   <li>💞️ I’m looking to collaborate on frontend and cloud tracks</li>
   <li>🥳 Fun fact: I play and write game scripts too</li>
-  <li>A <a href="https://drw4k33ewaqb7.cloudfront.net/">sample</a></li>
+  <li>A <a href="https://drw4k33ewaqb7.cloudfront.net/">sample</a></li> site
 </ul>
 
 <!---

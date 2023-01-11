@@ -10,9 +10,9 @@
   <li>🌱 I’m currently learning cloud</li>
   <li>💡 Fun fact: I'm currently studying at AltSchool Africa <a href="https://altschoolafrica.com/schools/engineering">School of Software Engineering</a> Class of 2022</li>
   <li>💞️ I’m looking to collaborate on frontend and cloud tracks</li>
-  <li>🧑🏾‍💻 Here is one of my projects/collaborations: <a href="https://team-226-phonie.altschool-team-226.repl.co/Home.html">Phonie</a></li>
-  <li>🥳 Fun fact: I play and write game scripts too</li>
-  <li>A <a href="https://drw4k33ewaqb7.cloudfront.net/">sample</a> site</li>
+  <li>🧑🏾‍💻 Here is one of my projects/collaborations: <a href="https://team-226-phonie.altschool-team-226.repl.co/Home.html">Phonie</a>
+    <a href="https://drw4k33ewaqb7.cloudfront.net/">sample site</a></li>
+  <li>🥳 Fun fact: I love writing, art and games</li?
 </ul>
 
 <!---

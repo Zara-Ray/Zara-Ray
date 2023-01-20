@@ -11,7 +11,7 @@
   <li>💡 Fun fact: I'm currently studying at AltSchool Africa <a href="https://altschoolafrica.com/schools/engineering">School of Software Engineering</a> Class of 2022</li>
   <li>💞️ I’m looking to collaborate on frontend and cloud tracks</li>
   <li>🧑🏾‍💻 Here are some of my works: <a href="https://zara-ray.github.io/Zuri-form-grid-Flex-/">CSS study</a>; 
-    <a href="https://drw4k33ewaqb7.cloudfront.net/">AWS Cloud study</a>; and collaborations: <a href="https://team-226-phonie.altschool-team-226.repl.co/Home.html">Phonie</a>; 
+    <a href="https://drw4k33ewaqb7.cloudfront.net/">AWS Cloud study</a>; and collaborations: <a href="https://team-226-phonie.altschool-team-226.repl.co/Home.html">Phonie App</a>; 
     <a href="https://group-51-second-capstone.netlify.app/">Capstone project</a>; 
     <a href="https://group-51-capstoneproject.netlify.app/">Project</a></li>
   <li>🥳 Fun fact: I love writing, art and games</li>

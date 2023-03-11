@@ -14,7 +14,7 @@
     <a href="https://group-51-second-capstone.netlify.app/">Capstone project</a>; 
     <a href="https://group-51-capstoneproject.netlify.app/">Project</a></li>
   <li>🥳 Fun fact: I love writing, art and games</li>
-  <li>📧 I'm also available <a href = "mailto: zararaymond05@gmail.com">here</a></li>
+  <li>📧 Reach me <a href = "mailto: zararaymond05@gmail.com">here</a></li>
 </ul>
 
 <!---

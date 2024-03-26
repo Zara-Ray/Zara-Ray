@@ -7,7 +7,7 @@
 <h3>A quick summary about me:</h3>
 <ul>
   <li>👀 I’m a tech enthusiast </li>
-  <li>🌱 I’m currently learning cloud</li>
+  <li>🌱 I’m a cloud engineer and currently exploring the field of cybersecurity</li>
   <li>💡 Fun fact: I'm currently studying at AltSchool Africa <a href="https://altschoolafrica.com/schools/engineering">School of Software Engineering</a> Class of 2022</li>
   <li>💞️ I’m looking to collaborate on frontend and cloud tracks</li>
   <li>🧑🏾‍💻 Here are some of my works: <a href="https://zara-ray.github.io/Zuri-form-grid-Flex-/">CSS study</a>; and collaborations: <a href="https://team-226-phonie.altschool-team-226.repl.co/Home.html">Phonie App</a>; 

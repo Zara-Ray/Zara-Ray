@@ -96,7 +96,7 @@
  ## 📫 Connect & Collaborate
  
  [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&color=0d1117&labelColor=1f6feb)](https://linkedin.com/in/)
- [![Email](https://img.shields.io/badge/Email-zaraaraymond%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white&color=0d1117&labelColor=1f6feb)](mailto:zararaymond05@gmail.com)
+ [![Email](https://img.shields.io/badge/Email-zaraaraymond%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white&color=0d1117&labelColor=1f6feb)](mailto:zaraaraymond@gmail.com)
  [![GitHub Followers](https://img.shields.io/github/followers/Zara-Ray?label=Follow&style=for-the-badge&logo=github&logoColor=white&color=0d1117&labelColor=1f6feb)](https://github.com/Zara-Ray)
  
  ---

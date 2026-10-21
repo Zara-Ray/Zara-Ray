@@ -1,23 +1,146 @@
-[![AltSchool Badge](https://img.shields.io/badge/-Engineering-6773E5?style=for-the-badge&logo=data:image/png;base64,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&logoColor=white&link=https://altschoolafrica.com/schools/engineering)](https://altschoolafrica.com/schools/engineering) 
-<h1> 👋 Hi, I’m Darius!</h1>
-
-<p>I'm a content creator, a budding Cloud and Frontend Engineer who currently works as a Machine Learning Trainer at Hugo Technologies. I am a tech enthusiast, a graduate of Physics/Astronomy (Geophysics major) from the University of Nigeria. I'm currently active and interested in DevOps and Cybersecurity fields. This is my short bio and I look forward to building useful projects... </p>
-
-
-<h3>A quick summary about me:</h3>
-<ul>
-  <li>👀 I’m a tech enthusiast </li>
-  <li>🌱 I’m a cloud engineer and currently exploring the field of cybersecurity</li>
-  <li>💡 Fun fact: I'm currently studying at AltSchool Africa <a href="https://altschoolafrica.com/schools/engineering">School of Software Engineering</a> Class of 2022</li>
-  <li>💞️ I’m looking to collaborate on frontend and cloud tracks</li>
-  <li>🧑🏾‍💻 Here are some of my works: <a href="https://zara-ray.github.io/Zuri-form-grid-Flex-/">CSS study</a>; and collaborations: <a href="https://team-226-phonie.altschool-team-226.repl.co/Home.html">Phonie App</a>; 
-    <a href="https://group-51-second-capstone.netlify.app/">Capstone project</a>; 
-    <a href="https://group-51-capstoneproject.netlify.app/">Project</a></li>
-  <li>🥳 Fun fact: I love writing, art, and games</li>
-  <li>📧 Reach me <a href = "mailto: zararaymond05@gmail.com">here</a></li>
-</ul>
-
-<!---
-Zara-Ray/Zara-Ray is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+ ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=200&section=header&text=Zara-Ray&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=IT%20Operations%20Analyst%20%7C%20ISC2%20CC%20%7C%20Cloud%20%26%20SecOps&descAlignY=55&descColor=8b949e)
+ 
+ > Bridging IT operations, cloud infrastructure, and security posture. Enforcing compliance, automating systems, and safeguarding the enterprise perimeter.
+ 
+ ---
+ 
+ ## 🎖️ Verified Credentials & Certifications
+ 
+ <table>
+   <tr>
+     <td width="50%" valign="top">
+       <h3 align="left">
+         <img src="https://img.shields.io/badge/(ISC)²-Certified%20in%20Cybersecurity%20(CC)-00A3E0?style=for-the-badge&logo=shield&logoColor=white&color=0d1117&labelColor=1f6feb" alt="ISC2 CC" />
+       </h3>
+       <p><strong>Issuing Authority:</strong> (ISC)²</p>
+       <p><strong>Status:</strong> Active / Verified Credential</p>
+       <p><strong>Core Evaluated Domains:</strong></p>
+       <ul>
+         <li>🛡️ <strong>Security Principles:</strong> CIA Triad, Risk Management, Threat Modeling & Ethics</li>
+         <li>🔄 <strong>BC / DR / IR:</strong> Business Continuity, Disaster Recovery & Incident Response</li>
+         <li>🔑 <strong>Access Controls:</strong> IAM, RBAC/ABAC, Zero Trust, MFA & SSO</li>
+         <li>🌐 <strong>Network Security:</strong> Perimeter Defense, Secure Protocols, Network Segmentation</li>
+         <li>⚙️ <strong>Security Operations:</strong> Endpoint Defense, Hardening, Data Security & Policies</li>
+       </ul>
+       <p><a href="https://www.credly.com/"><img src="https://img.shields.io/badge/Credly-Verify%20Badge-orange?style=flat-square&logo=credly&logoColor=white" alt="Verify on Credly" /></a></p>
+     </td>
+     <td width="50%" valign="top">
+       <h3 align="left">
+         <img src="https://img.shields.io/badge/AltSchool-Cloud%20Engineering%20Diploma-blueviolet?style=for-the-badge&logo=codementor&logoColor=white&color=0d1117&labelColor=1f6feb" alt="AltSchool Cloud Engineering" />
+       </h3>
+       <p><strong>Issuing Authority:</strong> AltSchool Africa</p>
+       <p><strong>Specialization:</strong> Cloud Systems & Infrastructure Automation</p>
+       <p><strong>Core Competency Areas:</strong></p>
+       <ul>
+         <li>☁️ <strong>Cloud Infrastructure:</strong> AWS core services (VPC, EC2, IAM, S3, EKS)</li>
+         <li>🏗️ <strong>Infrastructure as Code:</strong> Terraform provisioning & Ansible configuration</li>
+         <li>📦 <strong>Containerization:</strong> Docker packaging & Kubernetes orchestration</li>
+         <li>🔄 <strong>CI/CD & Delivery:</strong> Automated build, test, and release pipelines</li>
+         <li>🐧 <strong>Systems Administration:</strong> Linux kernel management, shell automation</li>
+       </ul>
+       <p><a href="https://altschoolafrica.com/"><img src="https://img.shields.io/badge/Credential-View%20Accreditation-blue?style=flat-square" alt="AltSchool" /></a></p>
+     </td>
+   </tr>
+ </table>
+ 
+ ---
+ 
+ ## 👨‍💻 Executive Summary
+ 
+ I am an **IT Operations Analyst** and **ISC2 Certified in Cybersecurity (CC)** professional with foundational training in Cloud Engineering and an academic background in Physics/Geophysics from the University of Nigeria.
+ 
+ I specialize in **operational resilience, enterprise identity administration, and infrastructure automation**:
+ - **Enterprise Operations & Fleet Management:** Overseeing end-to-end hardware, client OS (macOS & Windows), and software lifecycle management. Defining and enforcing corporate IT security policies and access standards.
+ - **Identity & Access Management (IAM):** Administering centralized directory services, Single Sign-On (SSO), and Multi-Factor Authentication (MFA) via JumpCloud and Google Workspace.
+ - **Threat Detection & Network Defense:** Triaging endpoint alerts using Trellix EDR, managing network traffic, VLANs, and firewall rules across Cisco Meraki hardware.
+ - **Cloud Engineering & Automation:** Designing immutable, scalable infrastructure with AWS, Terraform, and Ansible, ensuring deployment safety with Docker and automated CI/CD workflows.
+ 
+ ---
+ 
+ ## 🛠️ Enterprise Stack & Tooling
+ 
+ ### 🏢 IT Operations, MDM & Directory Services
+ ![JumpCloud](https://img.shields.io/badge/JumpCloud-Directory%20%26%20MDM-%23002B49?style=for-the-badge&logo=jumpcloud&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Google Workspace](https://img.shields.io/badge/Google%20Workspace-Enterprise%20Admin-%234285F4?style=for-the-badge&logo=googleworkspace&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Zoho](https://img.shields.io/badge/Zoho-ITSM%20%26%20Operations-%23E42528?style=for-the-badge&logo=zoho&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Windows](https://img.shields.io/badge/Windows-Fleet%20Admin-%230078D4?style=for-the-badge&logo=windows&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![macOS](https://img.shields.io/badge/macOS-Fleet%20Admin-%23000000?style=for-the-badge&logo=apple&logoColor=white&color=0d1117&labelColor=1f6feb)
+ 
+ ### 🛡️ Security Operations, Governance & Networking
+ ![ISC2 CC](https://img.shields.io/badge/Security%20Domains-(ISC)²%20CC%20Certified-%23008080?style=for-the-badge&logo=shield&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Trellix](https://img.shields.io/badge/Trellix-EDR%20%26%20Endpoint%20Defense-%23E31B23?style=for-the-badge&logo=shield&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Cisco Meraki](https://img.shields.io/badge/Cisco%20Meraki-Cloud%20Networking%20%26%20Security-%231BA0D7?style=for-the-badge&logo=cisco&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![IT Policies](https://img.shields.io/badge/Governance-IT%20Policies%20%26%20Compliance-%2358a6ff?style=for-the-badge&logo=files&logoColor=white&color=0d1117&labelColor=1f6feb)
+ 
+ ### ☁️ Cloud & Infrastructure as Code
+ ![AWS](https://img.shields.io/badge/AWS-%23232F3E.svg?style=for-the-badge&logo=amazonaws&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Terraform](https://img.shields.io/badge/Terraform-%23623CE4.svg?style=for-the-badge&logo=terraform&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Ansible](https://img.shields.io/badge/Ansible-%23EE0000.svg?style=for-the-badge&logo=ansible&logoColor=white&color=0d1117&labelColor=1f6feb)
+ 
+ ### 📦 Containers & Orchestration
+ ![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Amazon EKS](https://img.shields.io/badge/Amazon%20EKS-%23FF9900.svg?style=for-the-badge&logo=amazoneks&logoColor=white&color=0d1117&labelColor=1f6feb)
+ 
+ ### 🔄 CI/CD & Observability
+ ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232088FF.svg?style=for-the-badge&logo=githubactions&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Jenkins](https://img.shields.io/badge/Jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Prometheus](https://img.shields.io/badge/Prometheus-%23E6522C.svg?style=for-the-badge&logo=prometheus&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Grafana](https://img.shields.io/badge/Grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white&color=0d1117&labelColor=1f6feb)
+ 
+ ### 💻 Systems & Automation Scripting
+ ![Bash](https://img.shields.io/badge/Bash-%234EAA25.svg?style=for-the-badge&logo=gnubash&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Python](https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white&color=0d1117&labelColor=1f6feb)
+ ![Linux](https://img.shields.io/badge/Linux-%23FCC624.svg?style=for-the-badge&logo=linux&logoColor=black&color=0d1117&labelColor=1f6feb)
+ ![Nginx](https://img.shields.io/badge/Nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white&color=0d1117&labelColor=1f6feb)
+ 
+ ---
+ 
+ ## 📊 Activity & Analytics
+ 
+ <table>
+   <tr>
+     <td>
+       <img src="https://github-readme-stats.vercel.app/api?username=Zara-Ray&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=8b949e" alt="GitHub Stats" />
+     </td>
+     <td>
+       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zara-Ray&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e" alt="Top Languages" />
+     </td>
+   </tr>
+   <tr>
+     <td colspan="2" align="center">
+       <img src="https://github-readme-streak-stats.herokuapp.com?user=Zara-Ray&theme=github-dark-blue&hide_border=true&background=0d1117&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak" />
+     </td>
+   </tr>
+ </table>
+ 
+ ---
+ 
+ ## 🚀 Featured Deployments & Implementations
+ 
+ | Project | Focus & Description | Technology Stack |
+ |--------|---------------------|------------------|
+ | [CloudProject](https://github.com/Zara-Ray/CloudProject) | Production-ready AWS infrastructure deployment with automated CI/CD and container orchestration | AWS, Terraform, Docker, GitHub Actions |
+ | [ansible_study](https://github.com/Zara-Ray/ansible_study) | Systems hardening, compliance enforcement, and automated multi-node configuration playbooks | Ansible, Linux, YAML, Security Baseline |
+ | [3rd-Semester-Mini-Project](https://github.com/Zara-Ray/3rd-Semester-Mini-Project) | High-availability infrastructure provisioning with Route53 DNS routing, load balancing, and EC2 clustering | Terraform, Ansible, AWS EC2, Route53 |
+ 
+ ---
+ 
+ ## 🔭 Current Focus & Strategic Development
+ 
+ - **Enterprise Zero Trust & IAM:** Scaling identity governance, contextual conditional access, and directory federation.
+ - **Incident Detection & Response:** Advanced log correlation, behavioral analysis, and threat containment workflows.
+ - **Cloud Security Posture Management (CSPM):** Hardening IaC templates against CIS benchmarks and automated security auditing in CI/CD.
+ 
+ ---
+ 
+ ## 📫 Connect & Collaborate
+ 
+ [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&color=0d1117&labelColor=1f6feb)](https://linkedin.com/in/)
+ [![Email](https://img.shields.io/badge/Email-zararaymond05%40gmail.com-blue?style=for-the-badge&logo=gmail&logoColor=white&color=0d1117&labelColor=1f6feb)](mailto:zararaymond05@gmail.com)
+ [![GitHub Followers](https://img.shields.io/github/followers/Zara-Ray?label=Follow&style=for-the-badge&logo=github&logoColor=white&color=0d1117&labelColor=1f6feb)](https://github.com/Zara-Ray)
+ 
+ ---
+ 
+ ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:0d1117&height=120&section=footer)
+ 

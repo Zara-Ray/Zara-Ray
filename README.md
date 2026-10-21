@@ -4,47 +4,6 @@
  
  ---
  
- ## 🎖️ Verified Credentials & Certifications
- 
- <table>
-   <tr>
-     <td width="50%" valign="top">
-       <h3 align="left">
-         <img src="https://img.shields.io/badge/(ISC)²-Certified%20in%20Cybersecurity%20(CC)-00A3E0?style=for-the-badge&logo=shield&logoColor=white&color=0d1117&labelColor=1f6feb" alt="ISC2 CC" />
-       </h3>
-       <p><strong>Issuing Authority:</strong> (ISC)²</p>
-       <p><strong>Status:</strong> Active / Verified Credential</p>
-       <p><strong>Core Evaluated Domains:</strong></p>
-       <ul>
-         <li>🛡️ <strong>Security Principles:</strong> CIA Triad, Risk Management, Threat Modeling & Ethics</li>
-         <li>🔄 <strong>BC / DR / IR:</strong> Business Continuity, Disaster Recovery & Incident Response</li>
-         <li>🔑 <strong>Access Controls:</strong> IAM, RBAC/ABAC, Zero Trust, MFA & SSO</li>
-         <li>🌐 <strong>Network Security:</strong> Perimeter Defense, Secure Protocols, Network Segmentation</li>
-         <li>⚙️ <strong>Security Operations:</strong> Endpoint Defense, Hardening, Data Security & Policies</li>
-       </ul>
-       <p><a href="https://www.credly.com/"><img src="https://img.shields.io/badge/Credly-Verify%20Badge-orange?style=flat-square&logo=credly&logoColor=white" alt="Verify on Credly" /></a></p>
-     </td>
-     <td width="50%" valign="top">
-       <h3 align="left">
-         <img src="https://img.shields.io/badge/AltSchool-Cloud%20Engineering%20Diploma-blueviolet?style=for-the-badge&logo=codementor&logoColor=white&color=0d1117&labelColor=1f6feb" alt="AltSchool Cloud Engineering" />
-       </h3>
-       <p><strong>Issuing Authority:</strong> AltSchool Africa</p>
-       <p><strong>Specialization:</strong> Cloud Systems & Infrastructure Automation</p>
-       <p><strong>Core Competency Areas:</strong></p>
-       <ul>
-         <li>☁️ <strong>Cloud Infrastructure:</strong> AWS core services (VPC, EC2, IAM, S3, EKS)</li>
-         <li>🏗️ <strong>Infrastructure as Code:</strong> Terraform provisioning & Ansible configuration</li>
-         <li>📦 <strong>Containerization:</strong> Docker packaging & Kubernetes orchestration</li>
-         <li>🔄 <strong>CI/CD & Delivery:</strong> Automated build, test, and release pipelines</li>
-         <li>🐧 <strong>Systems Administration:</strong> Linux kernel management, shell automation</li>
-       </ul>
-       <p><a href="https://altschoolafrica.com/"><img src="https://img.shields.io/badge/Credential-View%20Accreditation-blue?style=flat-square" alt="AltSchool" /></a></p>
-     </td>
-   </tr>
- </table>
- 
- ---
- 
  ## 👨‍💻 Executive Summary
  
  I am an **IT Operations Analyst** and **ISC2 Certified in Cybersecurity (CC)** professional with foundational training in Cloud Engineering and an academic background in Physics/Geophysics from the University of Nigeria.

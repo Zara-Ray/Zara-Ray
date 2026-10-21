@@ -1,4 +1,4 @@
- ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=200&section=header&text=Zara-Ray&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=IT%20Operations%20Analyst%20%7C%20ISC2%20CC%20%7C%20Cloud%20%26%20SecOps&descAlignY=55&descColor=8b949e)
+ ![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1f6feb&height=200&section=header&text=Zara-Ray&fontSize=60&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=IT%20Operations%20Analyst%20%7C%20ISC2%20CC%20%7C%20Cloud%20%7C%20SecOps&descAlignY=55&descColor=8b949e)
  
  > Bridging IT operations, cloud infrastructure, and security posture. Enforcing compliance, automating systems, and safeguarding the enterprise perimeter.
  
@@ -143,4 +143,3 @@
  ---
  
  ![footer](https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb,100:0d1117&height=120&section=footer)
- 

@@ -82,7 +82,7 @@
  | [CloudProject](https://github.com/Zara-Ray/CloudProject) | Production-ready AWS infrastructure deployment with automated CI/CD and container orchestration | AWS, Terraform, Docker, GitHub Actions |
  | [ansible_study](https://github.com/Zara-Ray/ansible_study) | Systems hardening, compliance enforcement, and automated multi-node configuration playbooks | Ansible, Linux, YAML, Security Baseline |
  | [3rd-Semester-Mini-Project](https://github.com/Zara-Ray/3rd-Semester-Mini-Project) | High-availability infrastructure provisioning with Route53 DNS routing, load balancing, and EC2 clustering | Terraform, Ansible, AWS EC2, Route53 |
- 
+   
  ---
  
  ## 🔭 Current Focus & Strategic Development
